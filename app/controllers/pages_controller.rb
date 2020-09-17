@@ -5,7 +5,7 @@ require 'json'
 class PagesController < ApplicationController
 
   def index
-    @featured = JSON.parse(RestClient.get 'http://api.tvmaze.com/search/shows', {params: {'q' => 'girls'}})
+    @featured ||= JSON.parse(RestClient.get 'http://api.tvmaze.com/singlesearch/shows', {params: {'q' => 'money heist'}})
   end
   
 end

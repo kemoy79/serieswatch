@@ -1,10 +1,41 @@
-<section class="hero is-dark is-fullheight-with-navbar">
-<div class="hero-body">
-     <h1 class="title is-centered has-text-white">
-        Featured Show
-      </h1>
-</div>
-  
+<section class="section" style="border: solid red 2px; height: 100vh;">
+    <div class="container-fluid">
+
+        <div class="columns">
+
+          <div class="column">
+                    <div style="">
+                        <figure class="image is-3by2">
+                            <img src="<%= @featured["image"]["original"]%>">
+                        </figure>
+                    </div>
+
+
+            </div>
+
+            <div class="column is-4">
+
+                <div class="box">
+                    <h1 class="title">Featured Show </h1>
+                    <h2 class="subtitle"> <%= @featured["name"] %></h2>
+                    <p>Test Data</p>
+                    <p>Test Data</p>
+                    <p>Test Data</p>
+                    <p>Test Data</p>s
+                    <p>Test Data</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+    </div>
 </section>
 
 <section class="section">
@@ -13,8 +44,32 @@
         <h2 class="subtitle">
             A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
         </h2>
+
+
+        <div class="level" style="border: solid red 2px;">
+
+            <div class="level-left">
+                <div class="level-item">
+                    <h1 class="title">Featured Show Left</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="level">
+
+            <div class="level-left" style="border: solid green 2px;">
+                <div class="level-item">
+                    <h1 class="title">Featured Show right</h1>
+                </div>
+            </div>
+
+            <div class="level-right" style="border: solid green 2px;">
+                <div class="level-item">
+                    <h1 class="title">Featured Show right</h1>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
-
-
-
