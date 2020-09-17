@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a web site to get information on all tv and web series.
 
-Things you may want to cover:
+Prject was completed suing:
 
-* Ruby version
+* Ruby 2.6
 
-* System dependencies
+* Rails 6
 
-* Configuration
+* PostgreSQL
 
-* Database creation
+* Bulma CSS Framework
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
